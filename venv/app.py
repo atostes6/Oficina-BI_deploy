@@ -14,7 +14,7 @@ pipeline = joblib.load('breast_pipeline.pkl')
 async def predict(file: UploadFile = File(...)):
     """ Endpoint para previsão de malignidade em tumores de mama.
 
-    Este endpoint recebe um arquivo CSV contendo dados de tumores como entrada e retorna previsões
+    adicionado por ATOSTES: Este endpoint recebe um arquivo CSV contendo dados de tumores como entrada e retorna previsões
     para malignidade usando um modelo de aprendizado de máquina pré-carregado.
 
     :param file: Um arquivo CSV contendo dados de tumores.
